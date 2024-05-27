@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
 const app = require("./app");
 require("dotenv").config();
+import { userEvent } from '@testing-library/user-event/dist/type';
+
 const PORT = process.env.PORT || 5000;
 
 mongoose
